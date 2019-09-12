@@ -1,0 +1,89 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  yeet
+    4  firefox
+    5  echo
+    6  echo&0
+    7  uname-a
+    8  echo $0
+    9  gui
+   10  whoami
+   11  who
+   12  why
+   13  where
+   14  whereami
+   15  pwd
+   16  /
+   17  ls
+   18  ls -l
+   19  cik debesīs zvaigžņu
+   20  ls -l
+   21  ls -a
+   22  ls
+   23  ls -l
+   24  ls -a
+   25  ls -al
+   26  la -la
+   27  pwd
+   28  cd .
+   29  pwd
+   30  cd /home/user
+   31  cd.
+   32  cd ..
+   33  pwd
+   34  ls
+   35  ls -la
+   36  cd sc
+   37  cd ..
+   38  ls
+   39  ls -la
+   40  cd home
+   41  cd user
+   42  cd ..
+   43  pwd
+   44  cd home/user
+   45  pwd
+   46  cd ..
+   47  cd ~
+   48  pwd
+   49  cd /cd /
+   50  cd /
+   51  cd home
+   52  cd ..
+   53  cd home/user
+   54  oof
+   55  pwd
+   56  cd ~/
+   57  cd ~/documents
+   58  cd ~/documents/
+   59  pwd
+   60  cd ~/Documents/
+   61  pwd
+   62  cd ..
+   63  cd ~/Documents/
+   64  cd
+   65  cd/
+   66  cd
+   67  echo $0
+   68  echo Sup Pepeboi
+   69  sh
+   70  ps -aux | grep "sh"
+   71  sh
+   72  pwd
+   73  cd /
+   74  mkdir manamape
+   75  yeet
+   76  cd
+   77  ls
+   78  mkdir manamape
+   79  ls
+   80  cd manamape/
+   81  ls
+   82  ls -la
+   83  ls -ls
+   84  cd..
+   85  cd
+   86  rmdir manamape
+   87  ls
+   88  history
+   89  history > history_20190912.txe
