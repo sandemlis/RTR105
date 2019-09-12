@@ -22,4 +22,11 @@ ls -a           - parāda failu sarakstu neizlaižot tos kas sākas ar .
 ls -l           - parāda failu sarakstu ar datumiem
 history         - parāda komandu vēsturi
 ** > **         - ievieto failā
+** >> **        - papildina failu
 cat             - parāda faila saturu
+nano            - ļauj lasīt un mainīt faila saturu
+mv              - pārvieto failu
+cp              - kopē saturu
+$PATH           - komandu ceļi
+rm              - dzēš failu
+chmod           - maina atļaujas
