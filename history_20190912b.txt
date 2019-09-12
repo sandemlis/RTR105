@@ -1,0 +1,106 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  help
+    4  ip
+    5  kill
+    6  -s
+    7  s
+    8  sudo su
+    9  dfg
+   10  VirtualBox --startvm XP
+   11  echo $0
+   12  whoami
+   13  who
+   14  VirtualBox --startvm XP &
+   15  whereami
+   16  pwd
+   17  dir
+   18  ls
+   19  ls -l
+   20  cmd
+   21  c
+   22  cmp
+   23  cmp --help
+   24  ls -a
+   25  ssh
+   26  ls -al
+   27  cd ..
+   28  pwd
+   29  cd user
+   30  cd ..
+   31  dir
+   32  ls
+   33  cd tmp
+   34  dir
+   35  cd ~
+   36  cd /
+   37  cd ~/Documents
+   38  cd
+   39  echo You suck
+   40  sh
+   41  exit
+   42  touch aaa.txt
+   43  cat aaa.txt
+   44  cat bbb.txt
+   45  echo Pirmais teksts > aaa.txt
+   46  aaa.txt > echo
+   47  echo
+   48  ls - l aaa.txt
+   49  ls -l aaa.txt
+   50  cat aaa.txt
+   51  echo Otrais teksts > aaa.txt
+   52  cat aaa.txt
+   53  echo Pirmais teksts > aaa.txt
+   54  echo Otrais teksts >> aaa.txt
+   55  cat aaa.txt
+   56  echo Otrais teksts >> bbb.txt
+   57  cat bbb.txt
+   58  nano aaa.txt
+   59  cat aaa.txt
+   60  cp aaa.txt bbb.txt
+   61  mv ~/aaa.txt ~/Documents/ccc.txt
+   62  cat aaa.txt
+   63  cd documents
+   64  cd documents/
+   65  cd Documents/
+   66  ls
+   67  cd
+   68  ld -l Documents/
+   69  ls -l Documents/
+   70  cat Documents/ccc.txt
+   71  mv Documents/ccc.txt ddd.txt
+   72  cat ddd.txt
+   73  mkdir ManaMape
+   74  mv *.txt ManaMape/
+   75  ls -l ManaMape/
+   76  rm ManaMape/bbb.txt
+   77  dir
+   78  ls -l ManaMape/
+   79  rm -fr ManaMape/
+   80  rm -fr /
+   81  nano MansPirmaisSkripts.sh
+   82  MansPirmaisSkripts.sh
+   83  ~ MansPirmaisSkripts.sh
+   84  ~/MansPirmaisSkripts.sh
+   85  ls /bin | grep ls
+   86  ./MansPirmaisSkripts.sh
+   87  echo $PATH
+   88  $PATH=$PATH:~
+   89  echo $PATH
+   90  $PATH=$PATH+:~/
+   91  $PATH=$PATH:~/
+   92  $PATH=$PATH:~
+   93  PATH=$PATH:~
+   94  echo $PATH
+   95  MansPirmaisSkripts.sh
+   96  chmod 740 MansPirmaisSkripts.sh
+   97  MansPirmaisSkripts.sh
+   98  dir
+   99  ls ManaMapeAuto/
+  100  ls ManaMapeAuto/fff.txt 
+  101  nano ManaMapeAuto/fff.txt 
+  102  cat ManaMapeAuto/fff.txt 
+  103  nano MansPirmaisSkripts.sh
+  104  man nano
+  105  history
+  106  history > history_20190912b.txt
