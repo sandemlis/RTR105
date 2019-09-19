@@ -1,0 +1,9 @@
+#!/bin/bash
+if [ $# == 1 ]
+then
+git config --global user.email esmils@inbox.lv
+git add .
+#git commit -m "20190919_14_53"
+git commit -m $1
+gut push origin master
+fi
