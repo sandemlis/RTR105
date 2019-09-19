@@ -1,6 +1,8 @@
 # RTR105
 Studiju kurss Datormācība (pamatkurss) elektroniskā klase
 
+sudo apt-get install git
+
 Ctrl+Alt+T      - atver jaunu komandlogu
 Ctrl+Shift+T    - atver komandloga jaunu cilni
 Ctrl+L          - nodzēš komandloga lapu
