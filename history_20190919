@@ -1,0 +1,66 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  VirtualBox --startvm XP
+    4  git clone https://github.com/sandemlis/RTR105
+    5  cd RTR105/
+    6  cd ..
+    7  ls -l
+    8  cd RTR105/
+    9  pwd
+   10  ls -l
+   11  cat README.md 
+   12  nano git-upload
+   13  ls -l
+   14  chmod 700 git-upload
+   15  ls -l
+   16  ./git-upload 
+   17  ./git-upload 20190919_15_00
+   18  cat git-upload 
+   19  nano git-upload 
+   20  ./git-upload 20190919_15_00
+   21  cd..
+   22  cd ..
+   23  rm -rf RTR105/
+   24  git clone https://github.com/sandemlis/RTR105
+   25  cd RTR105/
+   26  ls -l
+   27  mr -rt ./
+   28  rm -rt ./
+   29  rm -rf ./
+   30  nano elementary.c
+   31  mkdir darbi
+   32  mv elementary.c  darbi/
+   33  cd darbi/
+   34  nano elementary.c 
+   35  gcc elementary.c 
+   36  nano elementary.c 
+   37  gcc elementary.c 
+   38  ls =l
+   39  ls -l
+   40  ./a.out 
+   41  gcc elementary.c -o prg1
+   42  ls -l
+   43  nano elementary.c 
+   44  gcc elementary.c -o prg2
+   45  ls -l
+   46  nano elementary.c 
+   47  gcc elementary.c -o prg3
+   48  ls -l
+   49  nano a.out
+   50  nano prg1 
+   51  cp elementary.c hello.c
+   52  nano hello.c 
+   53  gcc hello.c -o hello
+   54  nano hello.c 
+   55  gcc hello.c -o hello
+   56  ./hello
+   57  rm prg*
+   58  rm a.*
+   59  rm hello
+   60  ls -l
+   61  history > history_20190919
+   62  nano history_20190919 
+   63  rm history_20190919 
+   64  cd ..
+   65  rm history_20190919 
+   66  history > history_20190919

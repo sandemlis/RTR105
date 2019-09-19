@@ -31,4 +31,7 @@ mv              - pārvieto failu
 cp              - kopē saturu
 $PATH           - komandu ceļi
 rm              - dzēš failu
-chmod           - maina atļaujas
+chmod           - maina atļaujas ()
+git clone	- klonē github mapi
+
+gcc (pirmkoda nosaukums) -o (faila nosaukums)
