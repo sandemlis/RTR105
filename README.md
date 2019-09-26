@@ -35,3 +35,18 @@ chmod           - maina atļaujas ()
 git clone	- klonē github mapi
 
 gcc (pirmkoda nosaukums) -o (faila nosaukums)
+\n		- pārnes jaunā rindā
+\r		- kursors uz rindas sākumu
+\t		- uz tuvāko tabulācijas pozīciju (Tab taustiņa funkcija)
+\a		- pīkstiens
+\'		- attēlot apastrofu
+\"		- attelot pēdiņas
+\?		- attēlot jautājumzīmi
+\\		- attēlot apgriezto slīpsvītru
+\u		- universal character name
+\x		- heximal digit
+\b		- viens lauciņš atpakaļ
+\e		- ???? (ktkādi simboli)
+\f		- nākošā rinda tajā pašā attālumā
+\v		- tas pats kas \f ???
+
