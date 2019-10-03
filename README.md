@@ -35,6 +35,8 @@ chmod           - maina atļaujas ()
 git clone	- klonē github mapi
 
 gcc (pirmkoda nosaukums) -o (faila nosaukums)
+
+Teksta radakcija:
 \n		- pārnes jaunā rindā
 \r		- kursors uz rindas sākumu
 \t		- uz tuvāko tabulācijas pozīciju (Tab taustiņa funkcija)
@@ -49,4 +51,35 @@ gcc (pirmkoda nosaukums) -o (faila nosaukums)
 \e		- ???? (ktkādi simboli)
 \f		- nākošā rinda tajā pašā attālumā
 \v		- tas pats kas \f ???
+
+Operatori:
+++ --		-Palienina/samazina vērtību par 1 
++ -		-Saskaita mainīgos
+! ~		-Loģiskais NO un Bitu NO
+(type)		-Piesauc/Norāda mainīgā tipu
+*		-
+&		-
+sizeof		-Mainīgā lielums
+_Alignof	-
+		
+* / %		-Reizināšana Dalīšana Atlikums
++ -		-Saskaitīšana Atņemšana
+<< >>		-Bitus pabīda pa vienu vietu pa kreisi/labi (rēzina/dala ar 2)
+< <=		-Mazāks vai Mazāks un vienāds
+> >=		-Lielāks vai Lielāks un vienāds
+== !=		-Vienāds vai Nevienāds
+&		-Bitu AND
+^		-Bitu XOR
+|		-Bitu OR
+&&		-Loģiskais AND
+||		-Loģiskais OR
+?:		-
+
+=		-Piešķiršana
++= -=		-Summas Starpības piešķiršana
+*= /= %=	-Rēžinājums Dalīšanas Atlikuma piešķiršana
+<<= >>=		-Bitu pārbīdes piešķiršana
+&= ^= |=	-AND XOR OR piešķiršana
+
+
 
