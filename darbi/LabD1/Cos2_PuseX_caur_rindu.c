@@ -10,7 +10,7 @@ while((x>33.999)||(x<(-33.999))){
  scanf("%lf",&x);}
 
  y=cos(x/2)*cos(x/2);
-// printf("y=cos^2(%.2f/2)=%.2f\n",x,y);
+ printf("y=cos^2(%.2f/2)=%.2f\n",x,y);
 
  a=pow(-1,k)*pow(x,(2*k));
  S=S+a/2;
@@ -22,7 +22,7 @@ while((x>33.999)||(x<(-33.999))){
   S=S+a/2;
 //  printf("%.2f\t%8.2f\t%8.2f\n",x,a/2,S);
   if((k==(A-1))||(k==A))printf("%d. a = %.350lf\n",k,a/2);
-//  if(k==A)printf("%.2f\t%8.2f\t%8.2f\n",x,a/2,S);
+  if(k==A)printf("Funkcijas rezultāts aprēķinot ar Teilora rindu\nCos^2(%.2f/2) = %8.2f\n",x,S);
  }
 }
 
