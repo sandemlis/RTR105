@@ -34,6 +34,7 @@ Rekurenes reizinājums
 	
  	 y=cos(x/2)*cos(x/2);
 	 printf("y=cos^2(%.2f/2)=%.2f\n",x,y);
+	 
 	 a=pow(-1,k)*pow(x,(2*k));
 	 S=S+a/2;
 
@@ -42,14 +43,17 @@ Rekurenes reizinājums
  	 a=a*(-1)*pow(x,2)/((2*k)*(2*k-1));
  	 S=S+a/2;
  	 if((k==(A-1))||(k==A))printf("%d. a = %e\n",k,a/2);
-	 if(k==A)printf("Funkcijas rezultāts aprēķinot ar Teilora rindu\nCos^2(%.2f/2) = %8.2f\n",x,S);
+	 if(k==A)printf("Funkcijas rezultāts aprēķinot ar Teilora rindu\nCos^2(%.2f/2)=%.2f\n",x,S);
  	}
 	}
 
 ### Rezultāts
 	Lūdzu ievadiet x vērtību (robežās no -33 līdz 33): 15
-	99.  a = -1.853676e-138
-	100. a =  1.047932e-140
+	y=cos^2(15.00/2)=0.12
+	99. a = -1.853676e-138
+	100. a = 1.047932e-140
+	Funkcijas rezultāts aprēķinot ar Teilora rindu
+	Cos^2(15.00/2)=0.12f
 
 ### Analīze
 Izpildot kodu tika konstatēts ka izpildot visas 500 iterācijas saskaitīšanai nav iespējams noteikt saskaitāmo vērtības, jo tās ir tik mazas ka aprēķinot parādās nulle nevis ļoti mazs skaitlis.
