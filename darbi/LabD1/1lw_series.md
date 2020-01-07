@@ -11,10 +11,14 @@
 			   /
 			   -----
 			    k=0
-'''Rekurenes reizinājums
-	
-	R = 
-	
+
+Rekurenes reizinājums 
+
+		(-1)*x^2
+	R = -------------------
+		(2*k)*(2*k-1)
+
+
 ### Kods
 	#include <stdio.h>
 	#include <math.h>
@@ -46,12 +50,13 @@
 	100. a =  1.047932e-140
 
 ### Analīze
-	Izpildot kodu tika konstatēts ka izpildot visas 500 iterācijas saskaitīšanai nav iespējams noteikt saskaitāmo vērtības, jo tās ir tik mazas ka aprēķinot parādās nulle nevis ļoti mazs skaitlis.
-	Tāpēc tiek izmantotas 100 iterācijas 500 vietā.
+Izpildot kodu tika konstatēts ka izpildot visas 500 iterācijas saskaitīšanai nav iespējams noteikt saskaitāmo vērtības, jo tās ir tik mazas ka aprēķinot parādās nulle nevis ļoti mazs skaitlis.
+Tāpēc tiek izmantotas 100 iterācijas 500 iterāciju vietā.
 
-	Vēl izpildot kodu tika konstatēts, ka ievadot x vērtību, kas pēc moduļa ir lielāka par 33.999999, programmai sāk pazust precizitāte (Aprēķinātā vērtība atšķiras no vērtības ko iegūstam izmantojot formulu)
-	Tāpēc, lai attēlotu precīzus rezultātus tika ierobežota x vērtība kuru programma pieņems no lietotāja. (Lai lietotājam nebūtu jāsaskatas ar iespējamo rezultāta kļūdu)
-	No šīs kļūdas var izvairīties ja pirms aprēķiniem tiktu izmantotas formulas, kas šo x vērtību pārvērstu par tādu, kas ir robežās starp PI un -PI.
+Vēl izpildot kodu tika konstatēts, ka ievadot x vērtību, kas pēc moduļa ir lielāka par 33.999999, programmai sāk pazust precizitāte (Aprēķinātā vērtība atšķiras no vērtības ko iegūstam izmantojot formulu)
+Tāpēc, lai attēlotu precīzus rezultātus tika ierobežota x vērtība kuru programma pieņems no lietotāja. (Lai lietotājam nebūtu jāsaskatas ar iespējamo rezultāta kļūdu)
+
+No šīs kļūdas var izvairīties ja pirms aprēķiniem tiktu izmantotas formulas, kas šo x vērtību pārvērstu par tādu, kas ir robežās starp PI un -PI.
 
 ### Funkcijas grafiks
 ![Cos(x/2) * Cos(x/2)](https://raw.githubusercontent.com/sandemlis/RTR105/master/darbi/LabD1/Gnuplot.png)
