@@ -2,6 +2,8 @@
 # Labaratorijas darbs Nr.1. - Taylor series - atskaite
 
 ## Teorija
+Teilora rindas izteiksme
+
 			    500
 			   -----
 			   \
@@ -18,7 +20,6 @@ Rekurenes reizinājums
 	R = -------------------
 		(2*k)*(2*k-1)
 
-
 ### Kods
 	#include <stdio.h>
 	#include <math.h>
@@ -32,7 +33,7 @@ Rekurenes reizinājums
 	  scanf("%lf",&x);}
 	
  	 y=cos(x/2)*cos(x/2);
-	
+	 printf("y=cos^2(%.2f/2)=%.2f\n",x,y);
 	 a=pow(-1,k)*pow(x,(2*k));
 	 S=S+a/2;
 
@@ -41,6 +42,7 @@ Rekurenes reizinājums
  	 a=a*(-1)*pow(x,2)/((2*k)*(2*k-1));
  	 S=S+a/2;
  	 if((k==(A-1))||(k==A))printf("%d. a = %e\n",k,a/2);
+	 if(k==A)printf("Funkcijas rezultāts aprēķinot ar Teilora rindu\nCos^2(%.2f/2) = %8.2f\n",x,S);
  	}
 	}
 
