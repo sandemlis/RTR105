@@ -1,5 +1,5 @@
 <!-- https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax -->
-# Labaratorijas darbs Nr.1. - Taylor series - atskaite
+# Labaratorijas darbs Nr.2. - Roots - atskaite
 
 ## Teorija
 Lai aprēķinātu sakni vērtībai tiek uzskatīts, ja noteiktā intervālā, kurā funkcijas vērtība tā sākumpunktā un beigu punktā ir ar atšķirīgām zīmēm, tajā ir nepāra skaits sakņu.
@@ -93,4 +93,4 @@ Ar doto sakņu meklēšanas metodi nav iespējams atrast sakni, ja dotajā inter
 
 Tika konstatēts, ka dotais kods nevar noteikt sakni, ja norādītā funkcijas vērtība ir funkcijas virsotne, jo abās intervāla pusēs funkcijas vērtība ir ar vienādu zīmi.
 ### Funkcijas grafiks
-![Cos(x/2) * Cos(x/2)](https://raw.githubusercontent.com/sandemlis/RTR105/master/darbi/LabD1/Gnuplot.png)
+![Cos(x/2) * Cos(x/2)](https://raw.githubusercontent.com/sandemlis/RTR105/master/darbi/LabD2/Gnuplot.PNG)
