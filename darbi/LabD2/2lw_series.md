@@ -79,7 +79,8 @@ Kad šī precizitāte ir sasniegta, lietotājam tiek paziņots intervāls kurā 
 	Cien. lietotāj, jums būs jānorāda daži parametri un mēs aprēķināsim funkcijas Cos^2(x/2) sakni jūsu norādītajā intervālā.
 	Ievadiet intervāla sākuma punktu: 5
 	Ievadiet intervāla beigu puntu: 0
-	Pirms ievadiet vērtību ņemiet vērā ka dotās funkcijas vērtības ir no 0 līdz 1 !!!! Ievadiet funkcijas vērtību kuru vēlaties atrast: 0.9
+	Pirms ievadiet vērtību ņemiet vērā ka dotās funkcijas vērtības ir no 0 līdz 1 !!!! 
+	Ievadiet funkcijas vērtību kuru vēlaties atrast: 0.9
 	Ievadiet vēlamo funkcijas saknes precizitāti (cipari aiz komata): 7
 
 	Deimžēl jūsu norādītais sākuma punkts bija lielāks par beigu punktu, tāpēc apmainījām tos vietām.
