@@ -18,8 +18,6 @@ int reizes=0,precizitate;
  printf("\n");
 
 delta_x=pow(10,-precizitate);
-if(c==1)c=c-0.0000000001;
-else if(c==0)c=c+0.0000000001;
 
 if(a>b){
 b=b+a;
