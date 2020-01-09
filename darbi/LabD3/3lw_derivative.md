@@ -1,5 +1,5 @@
 <!-- https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax -->
-# Labaratorijas darbs Nr.1. - Taylor series - atskaite
+# Labaratorijas darbs Nr.3. - Derivative - atskaite
 
 ## Teorija
 Lai uzzīmētu funkcijas grafiku, funkciju var sadalīt mazos intervālos un aprēķināt tās vērtību.
