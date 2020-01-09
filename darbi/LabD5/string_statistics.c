@@ -9,7 +9,7 @@ void main(){
  int summa=0;
  char skaits=0;
 
- printf("Lūdzu ievadiet simbolu rindu.")
+ printf("Lūdzu ievadiet simbolu rindu.");
  scanf("%s", &string);
  min[0] = string[0];
  min[1] = 0;
