@@ -67,7 +67,7 @@ Tāpēc būs iespējams atrast sakni šo intervālu vairākas reizes dalot uz pu
 	}
 Kods paprasa, lai lietotājs ievada 4 vērtības - intervāla sākumpuntu, intervāla beigu punktu, funkcijas vērtību un precizitāti.
 
-Kods arī pārbauda vai sākumpunts nav lielāks par beigu punktu un samaina vietām, lai būtu mazāks.
+Kods arī pārbauda vai sākumpunts nav lielāks par beigu punktu un samaina vietām, ja tas ir nepieciešams.
 
 Lai aprēķinātu sakni lietotāja dotajai vērtībai tiek aprēķināts dotā intervāla sākumpunkta un beigu punkta vērtības, lai noteiktu vai šajā intervālā ir nepāra skaits sakņu.
 
