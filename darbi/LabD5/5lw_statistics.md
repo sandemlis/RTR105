@@ -1,7 +1,9 @@
 <!-- https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax -->
-# Labaratorijas darbs Nr.3. - Statistics - atskaite
+# Labaratorijas darbs Nr.5. - Statistics - atskaite
 
 ## Teorija
+
+Programmēšanā, lai parādītu simbolus tiek izmantots ASCII kods, līdz ar ko katram simbolam ir savs binārais kods, kuru var pārvērst par decimālu vērtību.
 
 ### Kods
 <details>
