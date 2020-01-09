@@ -1,5 +1,5 @@
 <!-- https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax -->
-# Labaratorijas darbs Nr.3. - Derivative - atskaite
+# Labaratorijas darbs Nr.3. - Statistics - atskaite
 
 ## Teorija
 
@@ -131,5 +131,6 @@ Pašās beigās tiek izvadīts katrs simbols augšā secībā kopā ar tā ASCII
     a	97
     a	97
 </details>
+
 ### Analīze
 Kodu ir iespējams vēl uzlabot vietām izmantojot jau definētus mainīgos vai masīvus. 
