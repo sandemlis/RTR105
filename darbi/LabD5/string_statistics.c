@@ -9,7 +9,7 @@ void main(){
  int summa=0;
  char skaits=0;
 
-
+ printf("Lūdzu ievadiet simbolu rindu.")
  scanf("%s", &string);
  min[0] = string[0];
  min[1] = 0;
@@ -22,9 +22,9 @@ void main(){
   if(string[i]>max[0]){max[0]=string[i];max[1]=i;}
  }
  printf("\nIevadītajā rindā ir %d simbolu gara.\n",i);
- printf("Mazākā vērtība no šiem simboliem ir %d. simbolam \"%c\", kura vētība ir %d\n",min[1]+1,min[0],min[0]);
- printf("Lielākā vērtība no šiem simboliem ir %d. simbolam \"%c\", kura vērtība ir %d\n",max[1]+1,max[0],max[0]);
- printf("Šo simbolu vidējā vērtība ir %d, kurai atbilst simbols \"%c\"\n",summa/i,summa/i);
+ printf("Mazākā vērtība no šiem simboliem ir %d. simbolam \"%c\", kura ASCII vētība ir %d\n",min[1]+1,min[0],min[0]);
+ printf("Lielākā vērtība no šiem simboliem ir %d. simbolam \"%c\", kura ASCII vērtība ir %d\n",max[1]+1,max[0],max[0]);
+ printf("Šo simbolu vidējā ASCII vērtība ir %d, kurai atbilst simbols \"%c\"\n",summa/i,summa/i);
  for(int j=0; j<i-1; j++){
   int Imin = j;
   for(int k=j+1; k<i; k++){
@@ -34,7 +34,7 @@ void main(){
   string[Imin] = string[j];
   string[j] = temp;
  }
- printf("Simbolu rindas mediāna ir %d. simbols \"%c\", kuras vērtība ir %d\n",(i+1)/2,string[i/2],string[i/2]);
+ printf("Simbolu rindas mediāna ir %d. simbols \"%c\", kura ASCII vērtība ir %d\n",(i+1)/2,string[i/2],string[i/2]);
  char n=0,m=0;
  char mod[i][2];
  mod[0][0]=string[0];
@@ -47,7 +47,7 @@ void main(){
   if(biezums<mod[n][1])biezums=mod[n][1];
  }
  for(n=0;n<m;n++){
-  if(biezums==mod[n][1])printf("Simbolu rindas moda ir simbols \"%c\", tā vērtība ir %d un tas atkārtojās %d reižu.\n",mod[n][0],mod[n][0],biezums);
+  if(biezums==mod[n][1])printf("Simbolu rindas moda ir simbols \"%c\", tā ASCII vērtība ir %d un tas atkārtojās %d reižu.\n",mod[n][0],mod[n][0],biezums);
  }
  for(n=0;n<i;n++){
   for(m=0;m<2;m++){
