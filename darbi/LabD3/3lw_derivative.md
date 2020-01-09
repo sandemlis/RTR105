@@ -9,7 +9,10 @@ Atvasinot funkciju vienu reizi var iegūt intervālus kuros funkcija dilst un v�
 
 Atvasinot funkciju otru reizi vari iegūt ieliekuma un izliekuma intervālus, kā arī vērtību cik ļoti tā ir ieliekts.
 ### Kods
-
+#### Programmas kods
+<details>
+  <summary> derivative.c kods </summary>
+	
 	#include<stdio.h>
 	#include<math.h>
 	
@@ -42,6 +45,8 @@ Atvasinot funkciju otru reizi vari iegūt ieliekuma un izliekuma intervālus, k�
 	 }
 	}
 
+</details>
+
 Kods paprasa, lai lietotājs ievada 3 vērtības - intervāla sākumpuntu, intervāla beigu punktu un soļa precizitāti.
 
 Kods arī pārbauda vai sākumpunts nav lielāks par beigu punktu un samaina vietām, ja tas ir nepieciešams.
@@ -51,6 +56,23 @@ Tad kods tabulas veidā ar virsrakstiem aprēķina funkcijas vērtību, funkcija
 Tad pieksaita x vērtībai soli ar lietotāja doto vērtību un atkārto iepriekš veikto darbību.
 
 Šīs divas darbības tiek veiktas līdz tiek sasniegts intervāla beigu punkts.
+
+#### Gnuplot kods
+<details>
+  <summary> gnuplot kods </summary>
+
+	set grid
+	plot [0:2*pi] cos(x/2)*cos(x/2) title "cos^2(x/2)"
+	replot [0:2*pi] (-sin(x)/2) title "(cos^2(x/2))'"
+	replot [0:2*pi] (-cos(x)/2) title "(cos^2(x/2)'')"
+	replot "derivative.dat" every::5 using 1:2 with lines title "cos^2(x/2) (num)"
+	replot "derivative.dat" every::5 using 1:3 with lines title "(cos^2(x/2))' (num)"
+	replot "derivative.dat" every::5 using 1:5 with lines title "(cos^2(x/2))'' (num)"
+
+</details>
+Kods liek grafiskās zīmēšanas videi uzzīmēt funkcijas grafiku, funkcijas atvasinājuma grafiku un funkcijas divkāršā atvasinājuma grafiku noteiktā intervālā
+
+Kā arī nolasa datus no faila un uzzīmē aprēķinātos funkcijas grafikus.
 ### Rezultāts
 
 	
