@@ -13,6 +13,13 @@ void main(){
  printf("Ievadiet precizitati, jeb skaitli cik ciparus aiz komata solim ņemsim vērā: \n");
  scanf("%d",&precizitate);
 
+ if(a>b){
+  b=b+a;
+  a=b-a;
+  b=b-a;
+  printf("Deimžēl jūsu norādītais sākuma punkts bija lielāks par beigu punktu, tāpēc apmainījām tos vietām.\n");
+ }
+ 
  delta_x=pow(10,-precizitate);
 
  printf("\tx\t\tcos^2(x/2)\t\tcos^2\'(x/2)\t-sin(x)/2\tcos^2\'\'(x/2)\t-cos(x)/2\n");
