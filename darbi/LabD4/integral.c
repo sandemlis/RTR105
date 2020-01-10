@@ -22,14 +22,14 @@ int main(){
   summa=summa+(cos(x/2)*cos(x/2)*delta_x);
   x+=delta_x;
  }
- printf("Aprēķinātais rezultāts izmantojot taisnstūra metodi: %f\n",summa);
+ printf("Aprēķinātais rezultāts izmantojot taisnstūra likumu: %f\n",summa);
  summa=0;
  x=a;
  while(x<=b){
  summa=summa+((cos(x/2)*cos(x/2)+cos((x+delta_x)/2)*cos((x+delta_x)/2))*delta_x/2);
  x+=delta_x;
  }
- printf("Aprēķinātais rezultāts izmantojot trapeces metodi: %f\n",summa);
+ printf("Aprēķinātais rezultāts izmantojot trapeces likumu: %f\n",summa);
  summa=0;
  x=a;
  while(x<=b){
@@ -42,6 +42,6 @@ int main(){
   x+=delta_x;
  }
  summa=summa*delta_x/3;
- printf("Aprēķinātais rezultāts izmantojot Simpsona metodi: %f\n",summa);
+ printf("Aprēķinātais rezultāts izmantojot Simpsona likumu: %f\n",summa);
 }
 
