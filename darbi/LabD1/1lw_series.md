@@ -53,7 +53,7 @@ Rekurenes reizinājums
 	99. a = -1.853676e-138
 	100. a = 1.047932e-140
 	Funkcijas rezultāts aprēķinot ar Teilora rindu
-	Cos^2(15.00/2)=0.12f
+	Cos^2(15.00/2)=0.12
 
 ### Analīze
 Izpildot kodu tika konstatēts ka izpildot visas 500 iterācijas saskaitīšanai nav iespējams noteikt saskaitāmo vērtības, jo tās ir tik mazas ka aprēķinot parādās nulle nevis ļoti mazs skaitlis.
