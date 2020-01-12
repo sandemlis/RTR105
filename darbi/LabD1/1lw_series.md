@@ -38,15 +38,16 @@ Rekurenes reizinājums
 	 a=pow(-1,k)*pow(x,(2*k));
 	 S=S+a/2;
 
- 	while(k<A){
-  	 k++;
- 	 a=a*(-1)*pow(x,2)/((2*k)*(2*k-1));
- 	 S=S+a/2;
- 	 if((k==(A-1))||(k==A))printf("%d. a = %e\n",k,a/2);
-	 if(k==A)printf("Funkcijas rezultāts aprēķinot ar Teilora rindu\nCos^2(%.2f/2)=%.2f\n",x,S);
- 	}
+ 	 while(k<A){
+  	  k++;
+ 	  a=a*(-1)*pow(x,2)/((2*k)*(2*k-1));
+ 	  S=S+a/2;
+ 	  if((k==(A-1))||(k==A))printf("%d. a = %e\n",k,a/2);
+	  if(k==A)printf("Funkcijas rezultāts aprēķinot ar Teilora rindu\nCos^2(%.2f/2)=%.2f\n",x,S);
+ 	 }
 	}
 
+Kops paprasa lai lietotājs ievada vērtību un tad izmantojot teilora rindas vienādojumu izrēķina funkcijas vērtību.
 ### Rezultāts
 	Lūdzu ievadiet x vērtību (robežās no -33 līdz 33): 15
 	y=cos^2(15.00/2)=0.12
